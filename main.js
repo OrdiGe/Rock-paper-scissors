@@ -14,13 +14,13 @@ function rock() {
     document.getElementById("compText").innerHTML = computerChoice;
 
     if(computerChoice == "Scissors") {
-        alert("You won!");
+        document.getElementById("winlose").innerHTML = "YOU WON!";
     }
     else if(computerChoice == "Paper") {
-        alert("You lost...")
+        document.getElementById("winlose").innerHTML = "YOU LOST..."
     }
     else if(computerChoice == "Rock") {
-        alert("Same as computer!")
+        document.getElementById("winlose").innerHTML = "DRAW!"
     }
 };
     
@@ -33,13 +33,13 @@ function paper() {
     document.getElementById("compText").innerHTML = computerChoice;
 
     if(computerChoice == "Rock") {
-        alert("You won!");
+        document.getElementById("winlose").innerHTML = "YOU WON!";
     }
     else if(computerChoice == "Scissors") {
-        alert("You lost...")
+        document.getElementById("winlose").innerHTML = "YOU LOST..."
     }
     else if(computerChoice == "Paper") {
-        alert("Same as computer!")
+        document.getElementById("winlose").innerHTML = "DRAW!"
     }
 }    
 
@@ -52,12 +52,12 @@ function scissors() {
     document.getElementById("compText").innerHTML = computerChoice;
 
     if(computerChoice == "Paper") {
-        alert("You won!");
+        document.getElementById("winlose").innerHTML = "YOU WON!";
     }
     else if(computerChoice == "Rock") {
-        alert("You lost...")
+        document.getElementById("winlose").innerHTML = "YOU LOST..."
     }
     else if(computerChoice == "Scissors") {
-        alert("Same as computer!")
+        document.getElementById("winlose").innerHTML = "DRAW!"
     }
 }

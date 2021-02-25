@@ -35,6 +35,24 @@ p {
     display: block;
 }
 
+#resultBox {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 400px;
+    height: 80px;
+    top: calc(50% - (80px / 2));
+    left: calc(50% - (400px / 2));
+    text-align: center;
+    display: block;
+    position: absolute;
+}
+
+#resultBox h1 {
+    margin: 0;
+    font-size: 60px;
+}
+
+
 #playerTitle {
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -130,3 +148,4 @@ p {
     display: inline-block;
     vertical-align: middle;
 }
+
